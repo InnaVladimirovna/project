@@ -1,0 +1,57 @@
+@font-face{
+    font-family: Justus-Italic; 
+    src: url(../fonts/Justus-Italic.ttf);
+}
+@font-face{
+    font-family: Lovelo-Black; 
+    src: url(../fonts/Lovelo_Black.otf);
+}
+body{
+    background-image: url(../img/bg.png);
+    margin: 0;
+}
+header{
+    padding-top: 24px;
+}
+main{
+    background-image: url(../img/fon\ \(1\).png);
+    padding: 1px;
+    margin-top: -9px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 979px;
+    box-sizing: border-box;
+}
+header h3:first-child{
+    font-size: 14px;
+    font-family: Justus-Italic;
+    float: left;
+    margin: 44px 10px 0 79px;
+    letter-spacing: 0.3px;
+}
+.logotext2 {
+    font-family: Justus-Italic;
+    font-size: 14px;
+    color: brown;
+    float: left;
+    text-transform: uppercase;
+    margin:  45px 10px 10px 137px;
+    letter-spacing: 0.34px;
+}
+.clera{
+    clear: both;
+}
+
+h1{
+    font-family: Lovelo-Black;
+    letter-spacing: 7px;
+    font-size: 50px;
+    margin: 60px 16px 0 22px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 20px 0 18px 0;
+    text-align: center;
+    box-shadow: 0 -2px 0 0 #e5e5e5,0 -3px 0 0 black,0 2px 0 0 #e5e5e5,0 3px 0 0 black;
+    width: 820;
+}
